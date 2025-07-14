@@ -8,7 +8,7 @@ export default function Navbar() {
   const router = useRouter();
 
   return (
-    <nav className="fixed bottom-6 left-1/2 transform -translate-x-1/2 w-80 h-14 text-white bg-violet-950 rounded-full flex items-center justify-around shadow-lg z-50">
+    <nav className="fixed bottom-6 left-1/2 transform -translate-x-1/2 w-80 h-12 text-white bg-violet-950/50 rounded-full flex items-center justify-around shadow-lg z-50">
       <Button
         variant="ghost"
         className="flex flex-col items-center gap-0  text-xs"
