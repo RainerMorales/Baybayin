@@ -17,9 +17,7 @@ export default function Home() {
             </div>
             <div className="text-zinc-400">ᜎᜒᜀᜇ᜔ᜈ᜔ ᜀᜎᜒᜊᜆ</div>
           </div>
-          <div className="text-xs text-zinc-400">
-            The Ancient Script of the Philippines
-          </div>
+         
         </div>
         <div className="flex flex-col min-w-50 gap-2 m-20">
           <Button
