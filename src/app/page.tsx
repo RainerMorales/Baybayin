@@ -15,14 +15,16 @@ export default function Home() {
             <div className="text-4xl text-white font-bold">
               Learn Ali<span className="text-violet-600">bata</span>
             </div>
-            <div className="text-zinc-400">ᜎᜒᜀᜇ᜔ᜈ᜔ ᜀᜎᜒᜊᜆ</div>
+            <div className="text-xl text-white">ᜎᜒᜀᜇ᜔ᜈ᜔ ᜀᜎᜒᜊᜆ</div>
           </div>
-         
+          <div className="text-xs text-zinc-400">
+            The Ancient Script of the Philippines
+          </div>
         </div>
         <div className="flex flex-col min-w-50 gap-2 m-20">
           <Button
             onClick={handleClick}
-            className="rounded-full bg-violet-900 hover:bg-violet-700 p-6 cursor-pointer active:scale-95 active:bg-violet-700 transition-transform"
+            className="rounded-full bg-violet-900 hover:bg-violet-700 p-6 cursor-pointer hover:scale-95 active:scale-95 active:bg-violet-700 transition-transform"
           >
             Get Started
           </Button>
