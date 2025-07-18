@@ -4,14 +4,16 @@ export default function dashboard() {
   return (
     <>
       {/* <Navbars></Navbars> */}
-      <main className="max-w-2xl m-auto  h-screen grid grid-cols-4 text-white bg-black gap-6">
-        <div className="mt-20 m-2 rounded-2xl col-span-4">
+      <main className="max-w-2xl m-auto text-white bg-black">
+        <div className="m-2 col-span-4">
           <div className="text-xl font-bold">Learn Baybayin</div>
-          <div className=" rounded p-2 mt-2 h-[100%] ">k</div>
         </div>
-        <div className="border-zinc-800 m-2 rounded-2xl col-span-4">
-          <div className="text-xl font-bold">Games</div>
-          <div className=" rounded p-2 mt-2 h-[100%] ">k</div>
+        <div className="m-2 grid grid-cols-2">
+          <div className="border border-zinc-900 rounded m-2 min-h-60 col-span-2">
+            1
+          </div>
+          <div className="border border-zinc-900 rounded m-2 min-h-60">2</div>
+          <div className="border border-zinc-900 rounded m-2 min-h-60">3</div>
         </div>
       </main>
     </>
