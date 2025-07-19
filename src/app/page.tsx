@@ -9,7 +9,7 @@ export default function Home() {
   }
   return (
     <>
-      <main className="h-screen flex flex-col items-center justify-center">
+      <main className="h-screen flex flex-col items-center justify-center bg-violet-950/30">
         <div className=" text-center m-10 space-y-6">
           <div>
             <div className="text-4xl text-white font-bold">
