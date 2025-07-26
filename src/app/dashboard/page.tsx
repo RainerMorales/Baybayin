@@ -1,5 +1,5 @@
 "use client";
-import Navbars from "@/components/ui/Navbars";
+// import Navbars from "@/components/ui/Navbars";
 export default function dashboard() {
   return (
     <>
